@@ -16,10 +16,9 @@ function Hero(props) {
             </div>
             <div class="col-lg-6" >
               <div class="p-5 mt-4">
-                <h1 class="display-4 hero-text">H1 Heading</h1>
+                <h1 class="display-4 hero-text bold">Christy Fury</h1>
                 <p class="lead hero-text">
-                  Crow's nest schooner ho scallywag hail-shot gabion salmagundi.
-                  Doubloon careen code of conduct lugsail hulk ye long clothes.{" "}
+                  Learn a bit about who I am and see what projects I have been a part of. 
                 </p>
                 <a href="#" class="btn btn-outline-dark">
                   Read More
