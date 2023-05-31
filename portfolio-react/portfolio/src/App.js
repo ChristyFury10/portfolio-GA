@@ -6,20 +6,25 @@ import { Route, Router, Routes } from 'react-router-dom';
 import AboutMe from './components/AboutMe';
 import Footer from './components/Footer';
 import Hero from './Hero';
+import Header from './components/Header';
+import Resume from './components/Resume';
 
 function App() {
 
   let routes;
   routes = (
     <Routes>
-      <Route path="/" element={<Project/>}/>
+      <Route path="/" />
       <Route path="/aboutme" element={<AboutMe/>}/>
+      <Route path="/projects" element={<Project/>}/>
+      <Route path="/resume" element={<Resume/>}/>
+
      </Routes>
   )
   return (
     <div className="App">
+      
       <header>
-        <NavBar/>
         <Hero/>
       </header>
      <main>

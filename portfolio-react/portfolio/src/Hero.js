@@ -1,5 +1,6 @@
 import React from "react";
 import "./Hero.css"
+import Header from "./components/Header";
 
 function Hero(props) {
   return (
@@ -20,9 +21,7 @@ function Hero(props) {
                 <p class="lead hero-text">
                   Learn a bit about who I am and see what projects I have been a part of. 
                 </p>
-                <a href="#" class="btn btn-outline-dark">
-                  Read More
-                </a>
+                  <Header/>
               </div>
             </div>
           </div>

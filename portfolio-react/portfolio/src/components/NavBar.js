@@ -1,4 +1,4 @@
-import {Button, Navbar} from "react-bootstrap"
+import { Navbar} from "react-bootstrap"
 import { Link } from "react-router-dom";
 
 function NavBar() {
