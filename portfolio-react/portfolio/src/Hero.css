@@ -2,5 +2,9 @@
     color: whitesmoke !important
 }
 .bold{
-    font-weight: 600
+    font-weight: 600;
+}
+.headshot{
+    width: 400px;
+    border-radius: 50px;
 }

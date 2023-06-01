@@ -10,14 +10,13 @@ function Hero(props) {
         <div class="container my-5" >
           <div class="row">
             <div class="col-lg-6">
-              {/* <img
-                class="w-100 shadow"
-                src="https://via.placeholder.com/824x552"
-              /> */}
+              <img className="headshot" src="https://i.imgur.com/RcW6C0F.jpg"></img>
             </div>
             <div class="col-lg-6" >
               <div class="p-5 mt-4">
+                
                 <h1 class="display-4 hero-text bold">Christy Fury</h1>
+                
                 <p class="lead hero-text">
                   Learn a bit about who I am and see what projects I have been a part of. 
                 </p>

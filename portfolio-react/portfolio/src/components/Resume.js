@@ -1,9 +1,13 @@
 import React from 'react';
+import "./Resume.css"
+
 
 function Resume(props) {
     return (
         <div>
-            Resume will be uploaded here.
+
+
+            
         </div>
     );
 }
