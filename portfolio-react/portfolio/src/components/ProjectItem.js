@@ -1,10 +1,11 @@
 import { Button, Card, Image } from "react-bootstrap";
+import "./ProjectItem.css"
 
 function Project() {
     return (
       <div className="Project">
        
-       <Card className="text-center">
+       <Card className="text-center project-card">
       <Card.Header></Card.Header>
       <Card.Body>
         <Card.Title>Echo</Card.Title>
@@ -12,14 +13,14 @@ function Project() {
         <Card.Text>
           A library for users to store youtube video links and categorize them for later re-watching. 
         </Card.Text>
-        <a href="" target="_">
+        <a href="https://teampro3-front.onrender.com/" target="_">
         <Button variant="primary">Live Link</Button>
         </a>
       </Card.Body>
-      <Card.Footer className="text-muted">Technologies used: MERN stack</Card.Footer>
+      <Card.Footer className="text-muted">Technologies used: MERN stack, bootstrap, </Card.Footer>
     </Card>
 
-    <Card className="text-center">
+    <Card className="text-center project-card">
       <Card.Header></Card.Header>
       <Card.Body>
         <Card.Title>Training With Fury</Card.Title>
@@ -35,7 +36,7 @@ function Project() {
       <Card.Footer className="text-muted">Technologies used: Mongo, Mongoose, Node.js, JavaScript, HTML, EJS, CSS</Card.Footer>
     </Card>
        
-    <Card className="text-center">
+    <Card className="text-center project-card">
       <Card.Header></Card.Header>
       <Card.Body>
         <Card.Title>Escape</Card.Title>

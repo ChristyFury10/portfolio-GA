@@ -6,11 +6,11 @@ function Hero(props) {
   return (
     <div>
 
-      <div  style={{ backgroundColor: "purple", backgroundSize: "100%", backgroundImage: "url('https://i.imgur.com/PM1nLOU.jpg')", backgroundRepeat: "no-repeat", backgroundSize: "cover", width: "100%", marginTop: "-100px" }}>
+      <div  style={{ backgroundColor: "black", backgroundImage: "url('https://images.unsplash.com/photo-1557264337-e8a93017fe92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')", backgroundRepeat: "no-repeat", backgroundSize: "cover", width: "100%", marginTop: "-100px" }} className="hero-image">
         <div class="container my-5" >
           <div class="row">
             <div class="col-lg-6">
-              <img className="headshot" src="https://i.imgur.com/RcW6C0F.jpg"></img>
+              <img className="headshot" alt="headshot" src="https://i.imgur.com/JAjTSeF.jpg"></img>
             </div>
             <div class="col-lg-6" >
               <div class="p-5 mt-4">

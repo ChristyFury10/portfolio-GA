@@ -1,0 +1,8 @@
+.text{
+    color:rgb(157, 147, 185);
+}
+.info, h1{
+    display: flex;
+    margin: auto;
+    width:75%
+}

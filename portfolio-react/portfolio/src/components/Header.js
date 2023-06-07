@@ -14,11 +14,14 @@ function Header(props) {
     return (
         <header>
             <nav style={navStyle}>
-                <Link to="/aboutme" >
-                    <div className="menu-text"> ABOUT</div>
+                <Link to="/" >
+                    <div className="menu-text"> ABOUT ME</div>
                 </Link>
                 <Link to="/projects">
                     <div className="menu-text">PROJECTS</div>
+                </Link>
+                <Link to="/skills">
+                    <div className="menu-text">MY SKILLS</div>
                 </Link>
                 <Link to="/resume">
                     <div className="menu-text">RESUME</div>
