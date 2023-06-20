@@ -28,8 +28,11 @@ function App() {
      <main>
       {routes}
      </main>
-     <Footer fixed="bottom"/>
+     <div className="footer">
+     <Footer />
+     </div>
     </div>
+
   );
 }
 
