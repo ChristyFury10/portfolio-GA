@@ -1,5 +1,24 @@
 .project-card{
-    width: 70%;
+    width: 55%;
     display: flex;
     margin: auto;
+    margin-bottom: 10px;
+    border: 1px solid rgb(40, 36, 36);
+    color: rgb(132, 127, 182)
+}
+.card-body{
+    background-color: black;
+}
+.head, .foot{
+    background-color: rgb(56, 56, 56);
+}
+.head{
+    background: black;
+}
+.title{
+    color:rgb(38, 22, 153)
+}
+Button{
+    background-color: rgb(38, 22, 153) !important;
+    border: none !important;
 }

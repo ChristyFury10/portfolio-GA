@@ -1,24 +1,49 @@
 import React from 'react';
+import './Skills.css'
 
 
 function Skills(props) {
+
+const icon = document.getElementsByClassName("big")
+console.log(icon)
+
+
+function mouseOver(e){
+    e.classList.addClass("fa-bounce");
+}
+function mouseOut(e){
+    e.classList.remove("fa-bounce")
+}
+
+for (let i = 0; i < icon.length;i ++){
+    icon[i].addEventListener("mouseover", mouseOver)
+}
+
+for (let i = 0; i < icon.length;i ++){
+    icon[i].addEventListener("mouseout", mouseOut)
+}
+
+
     return (
         <div>
-            Skills here
-            
-            <i class="fa-brands fa-js"></i>
-            <i class="fa-brands fa-python"></i>
-            <i class="fa-brands fa-react"></i>
-            <i class="fa-brands fa-node-js"></i>
-            <i class="fa-brands fa-html5"></i>
-            <i class="fa-brands fa-css3"></i>
-            <i class="fa-brands fa-bootstrap"></i>
+            <div>
+                Skills:
+                
+                <i className="fa-brands fa-js big"></i>
+                <i className="fa-brands fa-python big"></i>
+                <i className="fa-brands fa-react big"></i>
+                <i className="fa-brands fa-node-js big"></i>
+                <i className="fa-brands fa-html5 big"></i>
+                <i className="fa-brands fa-css3 big"></i>
+                <i className="fa-brands fa-bootstrap big"></i>
+            </div>
 
-            Tools
-            <i class="fa-brands fa-slack"></i>
-            <i class="fa-brands fa-github"></i>
-            <i class="fa-brands fa-trello"></i>
-
+            <div>
+                Tools:
+                <i className="fa-brands fa-slack big"></i>
+                <i className="fa-brands fa-github big"></i>
+                <i className="fa-brands fa-trello big"></i>
+            </div>
 
 
         </div>

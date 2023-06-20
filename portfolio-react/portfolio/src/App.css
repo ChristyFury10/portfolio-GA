@@ -1,8 +1,11 @@
 .App{
-    min-height: 100vh;
+    min-height: 90vh;
     position: relative;
 }
 .footer{
     position: absolute;
-    bottom: 0;
+    bottom: -75px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }

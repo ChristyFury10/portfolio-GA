@@ -1,4 +1,22 @@
 .bottom{
     position: absolute;
-    bottom:0;
+    bottom: -15px;;
+    display: flex;
+}
+.contacts{
+    font-size: 22px;
+}
+.contact{
+    font-size: 30px;
+}
+.icon{
+    text-decoration: none;
+    color: rgb(40, 40, 40)
+}
+.email{
+    background-color: black !important;
+    color: rgb(40, 40, 40);
+}
+.email:hover{
+    color: rgb(77, 77, 255);
 }

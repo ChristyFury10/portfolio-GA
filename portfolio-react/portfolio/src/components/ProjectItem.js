@@ -6,9 +6,8 @@ function Project() {
       <div className="Project">
        
        <Card className="text-center project-card">
-      <Card.Header></Card.Header>
       <Card.Body>
-        <Card.Title>Echo</Card.Title>
+        <Card.Title className="title">Echo</Card.Title>
         <Image src="https://i.imgur.com/jLQ2Q2i.png" style={{width: "600px"}} fluid />
         <Card.Text>
           A library for users to store youtube video links and categorize them for later re-watching. 
@@ -17,13 +16,13 @@ function Project() {
         <Button variant="primary">Live Link</Button>
         </a>
       </Card.Body>
-      <Card.Footer className="text-muted">Technologies used: MERN stack, bootstrap, </Card.Footer>
+      <Card.Footer className="text-muted foot">Technologies used: MERN stack, bootstrap, </Card.Footer>
     </Card>
 
     <Card className="text-center project-card">
-      <Card.Header></Card.Header>
+      <Card.Header className="head"></Card.Header>
       <Card.Body>
-        <Card.Title>Training With Fury</Card.Title>
+        <Card.Title className="title">Training With Fury</Card.Title>
         <Image src="https://i.imgur.com/mYzij9X.png" style={{width: "600px", margin: "12px"}} fluid />
         <Image src="https://i.imgur.com/OhA01TC.png" style={{width: "600px"}} fluid />
         <Card.Text>
@@ -33,13 +32,13 @@ function Project() {
         <Button variant="primary">Live Link</Button>
         </a>
       </Card.Body>
-      <Card.Footer className="text-muted">Technologies used: Mongo, Mongoose, Node.js, JavaScript, HTML, EJS, CSS</Card.Footer>
+      <Card.Footer className="text-muted foot">Technologies used: Mongo, Mongoose, Node.js, JavaScript, HTML, EJS, CSS</Card.Footer>
     </Card>
        
     <Card className="text-center project-card">
-      <Card.Header></Card.Header>
+      <Card.Header className="head"></Card.Header>
       <Card.Body>
-        <Card.Title>Escape</Card.Title>
+        <Card.Title className="title">Escape</Card.Title>
         <Image src="https://camo.githubusercontent.com/0d42b6cc3f1a3976d7909942b2f0107e82284376f7046aa6839449cfb64f1ae8/68747470733a2f2f692e696d6775722e636f6d2f576e43464979522e706e67" style={{width: "600px"}} fluid />
         <Card.Text>
           A click based web application game in the style of an escape room. Demonstrates DOM manipulation, javascript, CSS and HTML proficiency. 
@@ -48,7 +47,7 @@ function Project() {
         <Button variant="primary">Live Link</Button>
         </a>
       </Card.Body>
-      <Card.Footer className="text-muted">Technologies used: JavaScript, HTML, CSS, Jquery</Card.Footer>
+      <Card.Footer className="text-muted foot">Technologies used: JavaScript, HTML, CSS, Jquery</Card.Footer>
     </Card>
       </div>
     );
