@@ -1,5 +1,5 @@
 .hero-text{
-    color: whitesmoke !important
+    color: whitesmoke !important;
     
 }
 .bold{
@@ -16,4 +16,21 @@
 .hero-image{
     height: 500px;
     mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1.0) 50%, transparent 100%);
+    width: 100vh;
 }
+/* .hero-cont{
+    width: 100%;
+} */
+.container{
+    display: flex;
+}
+
+
+/* @media only screen and (max-width: 600px) {
+    .container{
+        flex-direction: column;
+    }
+    .hero-info{
+       
+    }
+} */

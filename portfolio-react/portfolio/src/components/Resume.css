@@ -1,4 +1,8 @@
 .resume{
-    width: 1250px;
-    
+    width: 1000px;
+    height: 1000px;
+}
+.resume-content{
+    display: flex;
+    justify-content: center;
 }

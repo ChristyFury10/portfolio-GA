@@ -7,6 +7,23 @@ function Project() {
        
        <Card className="text-center project-card">
       <Card.Body>
+        <Card.Title className="title">BottomsUp!</Card.Title>
+        <Image src="" style={{width: "600px"}} fluid />
+        <Card.Text>
+           An app that allows users to find local bars and explore what happy hour deals and specials are available each day!
+        </Card.Text>
+        <a href="https://bottoms-up-frontend.onrender.com/" target="_">
+        <Button variant="primary">Live Link</Button>
+        </a>
+        <a href="https://github.com/ChristyFury10/bottoms-up-frontend" target="_">
+        <Button variant="primary">GitHub Repo</Button>
+        </a>
+      </Card.Body>
+      <Card.Footer className="text-muted foot">Technologies used:  Python, Django, React, PostgreSQL, Materialize</Card.Footer>
+    </Card>
+
+       <Card className="text-center project-card">
+      <Card.Body>
         <Card.Title className="title">Echo</Card.Title>
         <Image src="https://i.imgur.com/jLQ2Q2i.png" style={{width: "600px"}} fluid />
         <Card.Text>
@@ -15,8 +32,11 @@ function Project() {
         <a href="https://teampro3-front.onrender.com/" target="_">
         <Button variant="primary">Live Link</Button>
         </a>
+        <a href="https://github.com/jotavo13/TEAM_PRO_3" target="_">
+        <Button variant="primary">GitHub Repo</Button>
+        </a>
       </Card.Body>
-      <Card.Footer className="text-muted foot">Technologies used: MERN stack, bootstrap, </Card.Footer>
+      <Card.Footer className="text-muted foot">Technologies used: MERN stack, bootstrap </Card.Footer>
     </Card>
 
     <Card className="text-center project-card">
@@ -30,6 +50,9 @@ function Project() {
         </Card.Text>
         <a href="https://training-with-fury.onrender.com/" target="_">
         <Button variant="primary">Live Link</Button>
+        </a>
+        <a href="https://github.com/ChristyFury10/training-with-fury" target="_">
+        <Button variant="primary">GitHub Repo</Button>
         </a>
       </Card.Body>
       <Card.Footer className="text-muted foot">Technologies used: Mongo, Mongoose, Node.js, JavaScript, HTML, EJS, CSS</Card.Footer>
@@ -45,6 +68,9 @@ function Project() {
         </Card.Text>
         <a href="https://christyfury10.github.io/escape-game-repo/" target="_">
         <Button variant="primary">Live Link</Button>
+        </a>
+        <a href="https://github.com/ChristyFury10/escape-game-repo" target="_">
+        <Button variant="primary">GitHub Repo</Button>
         </a>
       </Card.Body>
       <Card.Footer className="text-muted foot">Technologies used: JavaScript, HTML, CSS, Jquery</Card.Footer>
