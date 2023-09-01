@@ -8,7 +8,7 @@ function Project() {
        <Card className="text-center project-card">
       <Card.Body>
         <Card.Title className="title">BottomsUp!</Card.Title>
-        <Image src="" style={{width: "600px"}} fluid />
+        <Image src="https://i.imgur.com/LEtzzXy.png" style={{width: "600px"}} fluid />
         <Card.Text>
            An app that allows users to find local bars and explore what happy hour deals and specials are available each day!
         </Card.Text>
