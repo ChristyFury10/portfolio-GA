@@ -12,7 +12,7 @@ function Project() {
         <Card.Text>
            An app that allows users to find local bars and explore what happy hour deals and specials are available each day!
         </Card.Text>
-        <a href="https://bottoms-up-frontend.onrender.com/" target="_">
+        <a href="https://bottomsupfrontend.web.app/" target="_">
         <Button variant="primary">Live Link</Button>
         </a>
         <a href="https://github.com/ChristyFury10/bottoms-up-frontend" target="_">
